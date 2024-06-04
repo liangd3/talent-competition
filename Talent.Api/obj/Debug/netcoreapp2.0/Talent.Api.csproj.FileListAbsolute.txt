@@ -1,0 +1,44 @@
+C:\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.deps.json
+C:\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.runtimeconfig.json
+C:\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.runtimeconfig.dev.json
+C:\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.dll
+C:\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.pdb
+C:\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Common.dll
+C:\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Common.pdb
+C:\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.csprojResolveAssemblyReference.cache
+C:\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.csproj.CoreCompileInputs.cache
+C:\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.AssemblyInfoInputs.cache
+C:\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.AssemblyInfo.cs
+C:\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.dll
+C:\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.pdb
+C:\Talent-StandardTasks\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.deps.json
+C:\Talent-StandardTasks\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.runtimeconfig.json
+C:\Talent-StandardTasks\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.runtimeconfig.dev.json
+C:\Talent-StandardTasks\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.dll
+C:\Talent-StandardTasks\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.pdb
+C:\Talent-StandardTasks\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Common.dll
+C:\Talent-StandardTasks\Talent\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Common.pdb
+C:\Talent-StandardTasks\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.csprojResolveAssemblyReference.cache
+C:\Talent-StandardTasks\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.csproj.CoreCompileInputs.cache
+C:\Talent-StandardTasks\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.AssemblyInfoInputs.cache
+C:\Talent-StandardTasks\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.AssemblyInfo.cs
+C:\Talent-StandardTasks\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.dll
+C:\Talent-StandardTasks\Talent\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.pdb
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.deps.json
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.runtimeconfig.json
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.runtimeconfig.dev.json
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.dll
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Api.pdb
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Common.dll
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\bin\Debug\netcoreapp2.0\Talent.Common.pdb
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.csproj.AssemblyReference.cache
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.AssemblyInfoInputs.cache
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.AssemblyInfo.cs
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.csproj.CoreCompileInputs.cache
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.csproj.CopyComplete
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.dll
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.pdb
+C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Api\obj\Debug\netcoreapp2.0\Talent.Api.genruntimeconfig.cache
