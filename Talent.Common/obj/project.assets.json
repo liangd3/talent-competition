@@ -11489,11 +11489,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+      "projectUniqueName": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\Talent.Common.csproj",
       "projectName": "Talent.Common",
-      "projectPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+      "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\Talent.Common.csproj",
       "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\obj\\",
+      "outputPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

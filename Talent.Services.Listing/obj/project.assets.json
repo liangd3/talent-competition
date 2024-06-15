@@ -14759,11 +14759,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
+      "projectUniqueName": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
       "projectName": "Talent.Services.Talent",
-      "projectPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
+      "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Services.Listing\\Talent.Services.Talent.csproj",
       "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Services.Listing\\obj\\",
+      "outputPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Services.Listing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14783,11 +14783,11 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
-              "projectPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\Talent.Common.csproj"
+            "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
+              "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\Talent.Common.csproj"
             },
-            "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj": {
-              "projectPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj"
+            "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj": {
+              "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Services.Profile\\Talent.Services.Profile.csproj"
             }
           }
         }

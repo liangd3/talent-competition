@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Api\\Talent.Api.csproj": {}
+    "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Api\\Talent.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Api\\Talent.Api.csproj": {
+    "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Api\\Talent.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Api\\Talent.Api.csproj",
+        "projectUniqueName": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Api\\Talent.Api.csproj",
         "projectName": "Talent.Api",
-        "projectPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Api\\Talent.Api.csproj",
+        "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Api\\Talent.Api.csproj",
         "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Api\\obj\\",
+        "outputPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp2.0": {
             "targetAlias": "netcoreapp2.0",
             "projectReferences": {
-              "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
-                "projectPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\Talent.Common.csproj"
+              "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
+                "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\Talent.Common.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
+    "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\Talent.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+        "projectUniqueName": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\Talent.Common.csproj",
         "projectName": "Talent.Common",
-        "projectPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\Talent.Common.csproj",
+        "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\Talent.Common.csproj",
         "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\Talent.Common\\obj\\",
+        "outputPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\Talent.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

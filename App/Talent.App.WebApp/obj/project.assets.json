@@ -14243,11 +14243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
       "projectName": "Talent.App.WebApp",
-      "projectPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+      "projectPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
       "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\App\\Talent.App.WebApp\\obj\\",
+      "outputPath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\App\\Talent.App.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

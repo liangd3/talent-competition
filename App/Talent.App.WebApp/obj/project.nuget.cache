@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TUHYMnPLs2PzJK5qBVG0HC6/Guhbhru1+BS6byMz7Nab4QflRjvB/fQMdu5d3J2oD8aEn9OluhYIgu1jawj6ww==",
+  "dgSpecHash": "wGBvFWmlKasy35mxL1qwl6apXk0wC9ZkOhovJmM/Ho7fwQ/dh/13fhyc8mJQaMSv0VZL/sySFasYELNAjeoS0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dylan\\Downloads\\Industry Connect\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
+  "projectFilePath": "C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\App\\Talent.App.WebApp\\Talent.App.WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dylan\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\dylan\\.nuget\\packages\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",
