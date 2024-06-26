@@ -77,3 +77,23 @@ C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Services.Ide
 C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.dll
 C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.pdb
 C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.genruntimeconfig.cache
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\appsettings.docker.Development.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\appsettings.docker.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.deps.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.runtimeconfig.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.runtimeconfig.dev.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.dll
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Services.Identity.pdb
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Common.dll
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\bin\Debug\netcoreapp2.0\Talent.Common.pdb
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.csproj.AssemblyReference.cache
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.AssemblyInfoInputs.cache
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.AssemblyInfo.cs
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.csproj.CopyComplete
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.dll
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.pdb
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Identity\obj\Debug\netcoreapp2.0\Talent.Services.Identity.genruntimeconfig.cache
