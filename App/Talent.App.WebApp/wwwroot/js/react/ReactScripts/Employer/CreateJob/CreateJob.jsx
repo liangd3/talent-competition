@@ -34,7 +34,7 @@ export default class CreateJob extends React.Component {
                     startDate: moment(),
                     salary: { from: 0, to: 0 },
                     location: { country: "", city: ""}
-                }
+                },
             },
             loaderData: loaderData
         }
@@ -66,7 +66,7 @@ export default class CreateJob extends React.Component {
         var copyJobParam = this.props.match.params.copyId ? this.props.match.params.copyId : "";
 
         if (param != "" || copyJobParam != "") {
-            var link = param != "" ? 'https://mvptalentservicestalent.azurewebsites.net/listing/listing/GetJobByToEdit?id=' + param
+            const link = param != "" ? 'https://mvptalentservicestalent.azurewebsites.net/listing/listing/GetJobByToEdit?id=' + param
                 : 'https://mvptalentservicestalent.azurewebsites.net/listing/listing/GetJobForCopy?id=' + copyJobParam;
             var cookies = Cookies.get('talentAuthToken');
             $.ajax({
@@ -94,10 +94,18 @@ export default class CreateJob extends React.Component {
         }       
     }
     addUpdateJob() {
-        var jobData = this.state.jobData;
-        console.log("data to save:", jobData);
+        const { title, description, summary, applicantDetails, jobDetails} = this.state.jobData;
+
+        if (!title || !description || !summary || !applicantDetails || !jobDetails ||
+            !jobDetails.categories.category || !jobDetails.jobType.length || !jobDetails.startDate ||
+            !jobDetails.location.country || !jobDetails.location.city || !this.state.jobData.expiryDate) {
+            TalentUtil.notification.show("Please fill in all required fields.", "error", null, null);
+            return;
+        }
+        let jobData = this.state.jobData;
+        // console.log("data to save:", jobData);
         //jobData.jobDetails.startDate = jobData.jobDetails.startDate.toDate();
-        console.log("date:", jobData.jobDetails.startDate);
+        // console.log("date:", jobData.jobDetails.startDate);
         var cookies = Cookies.get('talentAuthToken');   
         $.ajax({
             url: 'https://mvptalentservicestalent.azurewebsites.net/listing/listing/createUpdateJob',
@@ -127,7 +135,7 @@ export default class CreateJob extends React.Component {
         this.setState({
             jobData:data
         })
-        console.log(data);
+        // console.log(data);
     }
    
     render() {

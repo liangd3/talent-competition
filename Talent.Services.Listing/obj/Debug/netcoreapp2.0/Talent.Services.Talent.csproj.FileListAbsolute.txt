@@ -93,3 +93,28 @@ C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Services.Lis
 C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.dll
 C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.pdb
 C:\Users\dylan\Downloads\Industry Connect\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.genruntimeconfig.cache
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\appsettings.docker.Development.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\appsettings.docker.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Profile.deps.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Profile.runtimeconfig.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Profile.runtimeconfig.dev.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Talent.deps.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Talent.runtimeconfig.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Talent.runtimeconfig.dev.json
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Talent.dll
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Talent.pdb
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Common.dll
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Profile.dll
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Common.pdb
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\bin\Debug\netcoreapp2.0\Talent.Services.Profile.pdb
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.csproj.AssemblyReference.cache
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.AssemblyInfoInputs.cache
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.AssemblyInfo.cs
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.csproj.CoreCompileInputs.cache
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.csproj.CopyComplete
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.dll
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.pdb
+C:\Users\dylan\OneDrive\Documents\GitHub\talent-competition\Talent.Services.Listing\obj\Debug\netcoreapp2.0\Talent.Services.Talent.genruntimeconfig.cache

@@ -17,7 +17,7 @@ const filterOptions = [
 
 const sortOptions = [
     { key: 'oldestfirst', text: 'Oldest First', value: 'asc' },
-    { key: 'newestfirst', text: 'Newst First', value: 'desc' },
+    { key: 'newestfirst', text: 'Newest First', value: 'desc' },
     
 ];
 
@@ -55,7 +55,7 @@ export default class ManageJob extends React.Component {
 
         // Initial component state
         this.state = {
-            filters: 'all',
+            filters: [],
             sortOrder: 'desc',
             loadJobs: [],
             loaderData: loader,
@@ -65,7 +65,7 @@ export default class ManageJob extends React.Component {
             },
             filter: {
                 showActive: true,
-                showClosed: true,
+                showClosed: false,
                 showDraft: true,
                 showExpired: true,
                 showUnexpired: true
@@ -80,10 +80,16 @@ export default class ManageJob extends React.Component {
         this.handleSortChange = this.handleSortChange.bind(this);
         this.isExpired = this.isExpired.bind(this);
         this.handlePaginationChange = this.handlePaginationChange.bind(this);
+        this.getButtonText = this.getButtonText.bind(this);
+        this.getButtonColor = this.getButtonColor.bind(this);
+        this.closeJob = this.closeJob.bind(this);
     };
     
     // Check if the job has expired
     isExpired(expiryDate) {
+        if (!expiryDate) {
+            console.error("expiryDate doesn't contain value")
+            return false;}
 
         return moment(expiryDate).isBefore(moment().utc());
     }
@@ -104,22 +110,29 @@ export default class ManageJob extends React.Component {
             showExpired: false,
             showUnexpired: false
         };
-        if (!value.includes('all')) {
-            value.forEach(element => {
-                newFilters[element] = true;
-            });
-        }
-        else {
-            value = value.filter(x => x == "all");
+        if (value.length === 0) {
             newFilters = {
                 showActive: true,
-                showClosed: true,
+                showClosed: false,
                 showDraft: true,
                 showExpired: true,
                 showUnexpired: true
             };
+        } else if (value.includes('all'))
+            {
+            newFilters = {
+            showActive: true,
+            showClosed: true,
+            showDraft: true,
+            showExpired: true,
+            showUnexpired: true
+        };
+            value = value.filter(x => x == "all");
+        } else {
+            value.forEach(element => {
+                newFilters[element] = true;
+            });
         }
-
         this.setState({  activePage: 1,filter: newFilters, filters: value }, () => {
             this.init();
         });
@@ -154,7 +167,7 @@ export default class ManageJob extends React.Component {
     // Method to load job data from server
     loadData(callback) {
 
-        var link = `https://mvptalentservicestalent.azurewebsites.net/listing/listing/getSortedEmployerJobs?showActive=${this.state.filter.showActive}&showClosed=${this.state.filter.showClosed}&showDraft=${this.state.filter.showDraft}&showExpired=${this.state.filter.showExpired}&showUnexpired=${this.state.filter.showUnexpired}&activePage=${this.state.activePage}&sortbyDate=${this.state.sortBy.date}`;
+        const link = `https://mvptalentservicestalent.azurewebsites.net/listing/listing/getSortedEmployerJobs?showActive=${this.state.filter.showActive}&showClosed=${this.state.filter.showClosed}&showDraft=${this.state.filter.showDraft}&showExpired=${this.state.filter.showExpired}&showUnexpired=${this.state.filter.showUnexpired}&activePage=${this.state.activePage}&sortbyDate=${this.state.sortBy.date}`;
         var cookies = Cookies.get('talentAuthToken');
         // your ajax call and other logic goes here
         $.ajax({
@@ -168,9 +181,13 @@ export default class ManageJob extends React.Component {
             dataType: "json",
             success: function (res) {
                 if (res.success == true) {
-                    this.setState({ loadJobs: res.myJobs, totalPages: Math.ceil(res.totalCount / 6) })
-                    callback()
+                    this.setState({ loadJobs: res.myJobs, totalPages: Math.ceil(res.totalCount / 6) }, callback);
                 }
+            }.bind(this),
+            error: function (res, a, b) {   
+                console.log(res)
+                console.log(a)
+                console.log(b)
             }.bind(this)
         })
     }
@@ -189,9 +206,52 @@ export default class ManageJob extends React.Component {
         });
     }
 
+    getButtonText(job) {
+        if (job.status == 1) {
+            return 'Closed';
+        } else {
+            return this.isExpired(job.expiryDate) ? 'Expired' : 'Apply';
+        }
+    }
+
+    getButtonColor(job) {
+        if (job.status == 1) {
+            return 'grey';
+        } else if (job.status == 0 && this.isExpired(job.expiryDate)) { 
+            return 'red'
+        } else {
+            return 'blue'
+        }
+        }
+
+
+    closeJob(id) {
+        var cookies = Cookies.get('talentAuthToken');
+        $.ajax({
+            url: 'https://mvptalentservicestalent.azurewebsites.net/listing/listing/closeJob',
+            headers: {
+                'Authorization': 'Bearer ' + cookies,
+                'Content-Type': 'application/json'
+            },
+            dataType: 'json',
+            type: "post",
+            data: JSON.stringify(id),
+            success: function (res) {
+                if (res.success == true) {
+                    this.loadData()
+                    TalentUtil.notification.show(res.message, "success", null, null)
+                } else {
+                    TalentUtil.notification.show(res.message, "error", null, null)
+                }
+            }.bind(this),
+            error: function (res, a, b) {
+                console.log('Close job error:', res, a, b);  // Log error
+            }.bind(this)
+        })
+    }
+
     render() {
         const { loadJobs } = this.state;
-        console.log(loadJobs)
         return (
             <BodyWrapper reload={this.init} loaderData={this.state.loaderData}>
                 <div className="ui container">
@@ -233,13 +293,15 @@ export default class ManageJob extends React.Component {
                                 </Grid.Column>
                             </Grid.Row>
                         </Grid>
+                        
+                        <br />
 
                         {
                             loadJobs.length > 0 ? (
                                 <div>
                                     <Card.Group>
-                                        {loadJobs.map((job, index) => (
-                                            <Card key={index} style={{ width: '400px' }}  >
+                                        {loadJobs.map((job) => (                                            
+                                            <Card key={job.id} style={{ width: '400px' }}  >
                                                 {/* <div style={customRibbonStyle}><Icon name='user' /> 0</div> */}
                                                 <div style={ribbonStyle}><Icon name='user' /> {job.noOfSuggestions}</div>
                                                 <Card.Content>
@@ -252,15 +314,15 @@ export default class ManageJob extends React.Component {
                                                 <Card.Content extra >
                                                     {/* <Grid className="fluid">
                                             <Grid.Column width={2}> */}
-                                                    <Button style={{ marginRight: '20px' }} color={this.isExpired(job.expiryDate) ? 'red' : 'grey'} size='mini' disabled={job.expired}>
-                                                        {this.isExpired(job.expiryDate) ? 'Expired' : 'Apply'}
+                                                    <Button style={{ marginRight: '20px' }} color={this.getButtonColor(job)} size='mini' disabled={job.expired}>
+                                                        {this.getButtonText(job)}
                                                     </Button>
                                                     {/* </Grid.Column> */}
                                                     {/* <Grid.Column floated='right'  width={5}> */}
                                                     <ButtonGroup>
-                                                        <Button size='mini' basic color='blue' content="Close" icon="close" />
+                                                        <Button size='mini' basic color='blue' content="Close" icon="close" onClick={() => this.closeJob(job.id)}/>
 
-                                                        <Button size='mini' basic color='blue' content="Edit" icon="edit" />
+                                                        <Button size='mini' basic color='blue' content="Edit" icon="edit" onClick={() => { window.location = "/EditJob/" + job.id }}/>
 
                                                         <Button size='mini' basic color='blue' content="Copy" icon="copy" />
                                                     </ButtonGroup>
@@ -289,6 +351,7 @@ export default class ManageJob extends React.Component {
                             )
                         }
                     </div>
+                    <br />
                 </div>
             </BodyWrapper>
         )

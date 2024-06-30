@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="MVPTalentAppWebApp" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\dylan\\Downloads\\Industry\ Connect\\talent-competition\\App\\Talent\.App\.WebApp\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\dylan\\OneDrive\\Documents\\GitHub\\talent-competition\\App\\Talent\.App\.WebApp\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>
